@@ -1,0 +1,91 @@
+
+HomeCSSTry CSS 
+Result Size: 745 x 607
+<!DOCTYPE html>
+<!
+- Change background color and font styles
+- Style headings and paragraphs
+- Add padding, margins, and borders
+- Center content and try different font sizes and colors>
+<html>
+<head>
+<style>
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+</style>
+</head>
+<body>
+
+<h1>My First CSS Example</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Page</title>
+    <style>
+        body {
+            background-color: #f4f4f9;
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .content-box {
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+        }
+        .main-title {
+            color: #007BFF;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        .text {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin-bottom: 15px;
+            color: #555;
+        }
+        .highlight {
+            color: #FF5733;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="content-box">
+        <h1 class="main-title">Water and Einstein's Equation</h1>
+        <p class="text">Water's chemical formula, H<sub>2</sub>O, demonstrates the use of subscript to denote the number of hydrogen atoms.</p>
+        <p class="text">Einstein's equation, E = mc<sup>2</sup>, showcases superscript to represent the square of the speed of light.</p>
+        <p class="text highlight">This text is highlighted with a different color and bold font.</p>
+    </div>
+</body>
+</html>
